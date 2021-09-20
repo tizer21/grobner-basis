@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 
 #include <cassert>
@@ -164,5 +163,3 @@ size_t hash_value(const TMonomial & monomial)
 }
 
 }
-=======
->>>>>>> 8ac035541fef5b20aff637e8f520e776e43c73c3
