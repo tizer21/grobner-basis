@@ -2,7 +2,8 @@
 
 #include "../src/term.h"
 
-void TestTerm() {
+void TestTerm()
+{
     using namespace NLibPoly;
 
     TMonomial monomialA = TMonomial({0, 1, 2, 3, 4});

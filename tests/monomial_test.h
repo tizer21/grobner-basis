@@ -2,7 +2,8 @@
 
 #include "../src/monomial.h"
 
-void TestMonomial() {
+void TestMonomial()
+{
     using namespace NLibPoly;
 
     TMonomial e = TMonomial();
@@ -12,7 +13,8 @@ void TestMonomial() {
     assert(a == b);
     assert(e != a);
 
-    for (unsigned i = 0; i != 5; ++i) {
+    for (unsigned i = 0; i != 5; ++i)
+    {
         assert(a.GetDegreeOf(i) == i);
     }
     assert(a.GetDegreeOf(5) == 0);
