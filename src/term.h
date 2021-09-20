@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #pragma once
 
 #include "monomial.h"
@@ -178,3 +179,5 @@ size_t hash_value(const TTerm<CoefficientType> & term)
 }
 
 }
+=======
+>>>>>>> 8ac035541fef5b20aff637e8f520e776e43c73c3

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #pragma once
 
 #include "../src/monomial.h"
@@ -36,3 +37,5 @@ void TestMonomial()
     assert((d / e) == TMonomial({1, 2, 2, 3, 4}));
     assert((d / d) == TMonomial());
 }
+=======
+>>>>>>> 8ac035541fef5b20aff637e8f520e776e43c73c3

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #pragma once
 
 #include "../src/term.h"
@@ -22,3 +23,5 @@ void TestTerm()
     assert((termC / termA) == TTerm<int>(7, {1, 1, 0, 0, 0, 0, 0, 1}));
     assert((termC / termC) == TTerm<int>(1, {}));
 }
+=======
+>>>>>>> 8ac035541fef5b20aff637e8f520e776e43c73c3
